@@ -6,4 +6,6 @@ Group Project - Delight README
 1. [Wireframes](#Wireframes)
 
 ## Wireframes
-<img src="/images/HOME.png" width=600>
+<img src="/images/HOME.png" width=100>
+<img src="/images/LOGIN.png" width=100>
+
