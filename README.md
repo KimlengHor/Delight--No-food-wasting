@@ -4,3 +4,6 @@ Group Project - Delight README
 
 ## Table of Contents
 1. [Wireframes](#Wireframes)
+
+## Wireframes
+<img src="/images/HOME.png" width=600>
