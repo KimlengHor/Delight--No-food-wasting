@@ -3,19 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C72DE3F234055B1007B3D23 /* MobileNet_model_best.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5C72DE3E234055B1007B3D23 /* MobileNet_model_best.mlmodel */; };
+		5C4E420123624D2F000E159E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E420023624D2F000E159E /* LoginViewController.swift */; };
+		5C4E420323626CED000E159E /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E420223626CED000E159E /* SignupViewController.swift */; };
+		5C4E420523626EC6000E159E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E420423626EC6000E159E /* GoogleService-Info.plist */; };
+		5C678E6523628DD500B9B99C /* FavoriteCuisineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C678E6423628DD500B9B99C /* FavoriteCuisineCell.swift */; };
+		5C678E672362921100B9B99C /* FoodDietaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C678E662362921100B9B99C /* FoodDietaryViewController.swift */; };
+		5C678E692362924000B9B99C /* FoodDietaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C678E682362924000B9B99C /* FoodDietaryCell.swift */; };
+		5C678E6B2362973200B9B99C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C678E6A2362973200B9B99C /* WelcomeViewController.swift */; };
 		5C90045C2337DF0D00A423FF /* images in Resources */ = {isa = PBXBuildFile; fileRef = 5C90045B2337DF0D00A423FF /* images */; };
+		5CA331A42345C0830029C02D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA331A32345C0830029C02D /* ViewController.swift */; };
+		5CA331A62345C0A80029C02D /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA331A52345C0A80029C02D /* VisionObjectRecognitionViewController.swift */; };
+		5CA331A82345C1750029C02D /* ObjectDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5CA331A72345C1750029C02D /* ObjectDetector.mlmodel */; };
+		5CA98F7F23550E2700AC81F0 /* ScanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA98F7E23550E2700AC81F0 /* ScanningViewController.swift */; };
+		5CC43AD223628B9400ABF6F4 /* FavoriteCuisineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC43AD123628B9400ABF6F4 /* FavoriteCuisineViewController.swift */; };
 		5CCF80C8232A15D900084BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCF80C7232A15D900084BB9 /* AppDelegate.swift */; };
-		5CCF80CA232A15D900084BB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCF80C9232A15D900084BB9 /* ViewController.swift */; };
+		5CCF80CA232A15D900084BB9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCF80C9232A15D900084BB9 /* HomeViewController.swift */; };
 		5CCF80CD232A15D900084BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCF80CB232A15D900084BB9 /* Main.storyboard */; };
 		5CCF80CF232A15DB00084BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CCF80CE232A15DB00084BB9 /* Assets.xcassets */; };
 		5CCF80D2232A15DB00084BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCF80D0232A15DB00084BB9 /* LaunchScreen.storyboard */; };
 		5CCF80DD232A15DB00084BB9 /* DelightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCF80DC232A15DB00084BB9 /* DelightTests.swift */; };
 		5CCF80E8232A15DB00084BB9 /* DelightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCF80E7232A15DB00084BB9 /* DelightUITests.swift */; };
+		5CE1FF6A23695B0F00A55EDF /* CreateSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1FF6923695B0F00A55EDF /* CreateSpinner.swift */; };
+		5CE1FF6C23695B8900A55EDF /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1FF6B23695B8900A55EDF /* UIViewExtension.swift */; };
+		5CFED37A236653AE00E32793 /* MobileNet_model_best.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5CFED379236653AE00E32793 /* MobileNet_model_best.mlmodel */; };
+		76C630B11A0BCC4CE3512535 /* Pods_Delight_DelightUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E23AB8F3E27F9AE71E23D80 /* Pods_Delight_DelightUITests.framework */; };
+		C3C7E43A7B4E711C689F4CD0 /* Pods_Delight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154E2B527960877E6550DA45 /* Pods_Delight.framework */; };
+		FEE71BECC623F53CBAC9305E /* Pods_DelightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A85235C57A83141D2A311DB /* Pods_DelightTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +53,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C72DE3E234055B1007B3D23 /* MobileNet_model_best.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet_model_best.mlmodel; sourceTree = "<group>"; };
+		14889B1A1254EE436D6E981A /* Pods-Delight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Delight/Pods-Delight.debug.xcconfig"; sourceTree = "<group>"; };
+		154E2B527960877E6550DA45 /* Pods_Delight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41CFBD3BAEDDF978D483A12E /* Pods-Delight-DelightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delight-DelightUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Delight-DelightUITests/Pods-Delight-DelightUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4725E80D56C59E9C0056EF5A /* Pods-DelightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelightTests.release.xcconfig"; path = "Target Support Files/Pods-DelightTests/Pods-DelightTests.release.xcconfig"; sourceTree = "<group>"; };
+		4928EA09C4B0B12FB3E4E7B6 /* Pods-DelightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelightTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DelightTests/Pods-DelightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C4E420023624D2F000E159E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5C4E420223626CED000E159E /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		5C4E420423626EC6000E159E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5C678E6423628DD500B9B99C /* FavoriteCuisineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCuisineCell.swift; sourceTree = "<group>"; };
+		5C678E662362921100B9B99C /* FoodDietaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDietaryViewController.swift; sourceTree = "<group>"; };
+		5C678E682362924000B9B99C /* FoodDietaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDietaryCell.swift; sourceTree = "<group>"; };
+		5C678E6A2362973200B9B99C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		5C90045B2337DF0D00A423FF /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		5CA331A32345C0830029C02D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CA331A52345C0A80029C02D /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
+		5CA331A72345C1750029C02D /* ObjectDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ObjectDetector.mlmodel; sourceTree = "<group>"; };
+		5CA98F7E23550E2700AC81F0 /* ScanningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningViewController.swift; sourceTree = "<group>"; };
+		5CC43AD123628B9400ABF6F4 /* FavoriteCuisineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCuisineViewController.swift; sourceTree = "<group>"; };
 		5CCF80C4232A15D900084BB9 /* Delight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Delight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CCF80C7232A15D900084BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5CCF80C9232A15D900084BB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CCF80C9232A15D900084BB9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5CCF80CC232A15D900084BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5CCF80CE232A15DB00084BB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CCF80D1232A15DB00084BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +84,19 @@
 		5CCF80E3232A15DB00084BB9 /* DelightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CCF80E7232A15DB00084BB9 /* DelightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelightUITests.swift; sourceTree = "<group>"; };
 		5CCF80E9232A15DB00084BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE1FF6923695B0F00A55EDF /* CreateSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSpinner.swift; sourceTree = "<group>"; };
+		5CE1FF6B23695B8900A55EDF /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		5CF02C29F195D61B9F971232 /* Pods-DelightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelightTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DelightTests/Pods-DelightTests.release.xcconfig"; sourceTree = "<group>"; };
+		5CFED379236653AE00E32793 /* MobileNet_model_best.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNet_model_best.mlmodel; path = ../../../MobileNet_model_best.mlmodel; sourceTree = "<group>"; };
+		5E23AB8F3E27F9AE71E23D80 /* Pods_Delight_DelightUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delight_DelightUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4E64ECB9D22790F640F7AC /* Pods-Delight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delight.debug.xcconfig"; path = "Target Support Files/Pods-Delight/Pods-Delight.debug.xcconfig"; sourceTree = "<group>"; };
+		76AF361AC53AAB2B96365BE2 /* Pods-DelightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelightTests.debug.xcconfig"; path = "Target Support Files/Pods-DelightTests/Pods-DelightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		78C06DC7EAEAFBAB9BB35A14 /* Pods-Delight-DelightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delight-DelightUITests.release.xcconfig"; path = "Target Support Files/Pods-Delight-DelightUITests/Pods-Delight-DelightUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A85235C57A83141D2A311DB /* Pods_DelightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DelightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BCBF77F98E2B410FAFBE1B /* Pods-Delight-DelightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delight-DelightUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Delight-DelightUITests/Pods-Delight-DelightUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B29C1B393E1FECFB7F5032DD /* Pods-Delight-DelightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delight-DelightUITests.debug.xcconfig"; path = "Target Support Files/Pods-Delight-DelightUITests/Pods-Delight-DelightUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAB64B87C065AD099101873C /* Pods-Delight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delight.release.xcconfig"; path = "Pods/Target Support Files/Pods-Delight/Pods-Delight.release.xcconfig"; sourceTree = "<group>"; };
+		F14A279159C9B402ABC24521 /* Pods-Delight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delight.release.xcconfig"; path = "Target Support Files/Pods-Delight/Pods-Delight.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3C7E43A7B4E711C689F4CD0 /* Pods_Delight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE71BECC623F53CBAC9305E /* Pods_DelightTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +120,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C630B11A0BCC4CE3512535 /* Pods_Delight_DelightUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		057EBEFC69C4FFB690EEDEC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				154E2B527960877E6550DA45 /* Pods_Delight.framework */,
+				5E23AB8F3E27F9AE71E23D80 /* Pods_Delight_DelightUITests.framework */,
+				9A85235C57A83141D2A311DB /* Pods_DelightTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C4902943F477B5984FC4269 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D4E64ECB9D22790F640F7AC /* Pods-Delight.debug.xcconfig */,
+				F14A279159C9B402ABC24521 /* Pods-Delight.release.xcconfig */,
+				B29C1B393E1FECFB7F5032DD /* Pods-Delight-DelightUITests.debug.xcconfig */,
+				78C06DC7EAEAFBAB9BB35A14 /* Pods-Delight-DelightUITests.release.xcconfig */,
+				76AF361AC53AAB2B96365BE2 /* Pods-DelightTests.debug.xcconfig */,
+				4725E80D56C59E9C0056EF5A /* Pods-DelightTests.release.xcconfig */,
+				14889B1A1254EE436D6E981A /* Pods-Delight.debug.xcconfig */,
+				DAB64B87C065AD099101873C /* Pods-Delight.release.xcconfig */,
+				B0BCBF77F98E2B410FAFBE1B /* Pods-Delight-DelightUITests.debug.xcconfig */,
+				41CFBD3BAEDDF978D483A12E /* Pods-Delight-DelightUITests.release.xcconfig */,
+				4928EA09C4B0B12FB3E4E7B6 /* Pods-DelightTests.debug.xcconfig */,
+				5CF02C29F195D61B9F971232 /* Pods-DelightTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5C678E6323628DB800B9B99C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C678E6423628DD500B9B99C /* FavoriteCuisineCell.swift */,
+				5C678E682362924000B9B99C /* FoodDietaryCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5CC43AD323628BA700ABF6F4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5CCF80C9232A15D900084BB9 /* HomeViewController.swift */,
+				5CA98F7E23550E2700AC81F0 /* ScanningViewController.swift */,
+				5CC43AD123628B9400ABF6F4 /* FavoriteCuisineViewController.swift */,
+				5C4E420223626CED000E159E /* SignupViewController.swift */,
+				5C4E420023624D2F000E159E /* LoginViewController.swift */,
+				5C678E662362921100B9B99C /* FoodDietaryViewController.swift */,
+				5C678E6A2362973200B9B99C /* WelcomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		5CCF80BB232A15D900084BB9 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +187,8 @@
 				5CCF80DB232A15DB00084BB9 /* DelightTests */,
 				5CCF80E6232A15DB00084BB9 /* DelightUITests */,
 				5CCF80C5232A15D900084BB9 /* Products */,
+				5C4902943F477B5984FC4269 /* Pods */,
+				057EBEFC69C4FFB690EEDEC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,13 +205,19 @@
 		5CCF80C6232A15D900084BB9 /* Delight */ = {
 			isa = PBXGroup;
 			children = (
+				5CE1FF6823695AF200A55EDF /* Helper */,
+				5C678E6323628DB800B9B99C /* Views */,
+				5CC43AD323628BA700ABF6F4 /* Controllers */,
 				5CCF80C7232A15D900084BB9 /* AppDelegate.swift */,
-				5CCF80C9232A15D900084BB9 /* ViewController.swift */,
+				5CA331A32345C0830029C02D /* ViewController.swift */,
+				5CA331A52345C0A80029C02D /* VisionObjectRecognitionViewController.swift */,
+				5C4E420423626EC6000E159E /* GoogleService-Info.plist */,
 				5CCF80CB232A15D900084BB9 /* Main.storyboard */,
 				5CCF80CE232A15DB00084BB9 /* Assets.xcassets */,
 				5CCF80D0232A15DB00084BB9 /* LaunchScreen.storyboard */,
 				5CCF80D3232A15DB00084BB9 /* Info.plist */,
-				5C72DE3E234055B1007B3D23 /* MobileNet_model_best.mlmodel */,
+				5CFED379236653AE00E32793 /* MobileNet_model_best.mlmodel */,
+				5CA331A72345C1750029C02D /* ObjectDetector.mlmodel */,
 			);
 			path = Delight;
 			sourceTree = "<group>";
@@ -131,6 +240,15 @@
 			path = DelightUITests;
 			sourceTree = "<group>";
 		};
+		5CE1FF6823695AF200A55EDF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5CE1FF6923695B0F00A55EDF /* CreateSpinner.swift */,
+				5CE1FF6B23695B8900A55EDF /* UIViewExtension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CCF80EC232A15DB00084BB9 /* Build configuration list for PBXNativeTarget "Delight" */;
 			buildPhases = (
+				29EE66629800BD3B27445C50 /* [CP] Check Pods Manifest.lock */,
 				5CCF80C0232A15D900084BB9 /* Sources */,
 				5CCF80C1232A15D900084BB9 /* Frameworks */,
 				5CCF80C2232A15D900084BB9 /* Resources */,
+				6550FEE0DE934D911A2BDF50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CCF80EF232A15DB00084BB9 /* Build configuration list for PBXNativeTarget "DelightTests" */;
 			buildPhases = (
+				9D739A58A721895FDBF755A2 /* [CP] Check Pods Manifest.lock */,
 				5CCF80D4232A15DB00084BB9 /* Sources */,
 				5CCF80D5232A15DB00084BB9 /* Frameworks */,
 				5CCF80D6232A15DB00084BB9 /* Resources */,
@@ -173,9 +294,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CCF80F2232A15DB00084BB9 /* Build configuration list for PBXNativeTarget "DelightUITests" */;
 			buildPhases = (
+				81AA2795EB20A1A786455ED3 /* [CP] Check Pods Manifest.lock */,
 				5CCF80DF232A15DB00084BB9 /* Sources */,
 				5CCF80E0232A15DB00084BB9 /* Frameworks */,
 				5CCF80E1232A15DB00084BB9 /* Resources */,
+				FF3C88043F565D6228F6A87D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +360,7 @@
 			files = (
 				5C90045C2337DF0D00A423FF /* images in Resources */,
 				5CCF80D2232A15DB00084BB9 /* LaunchScreen.storyboard in Resources */,
+				5C4E420523626EC6000E159E /* GoogleService-Info.plist in Resources */,
 				5CCF80CF232A15DB00084BB9 /* Assets.xcassets in Resources */,
 				5CCF80CD232A15D900084BB9 /* Main.storyboard in Resources */,
 			);
@@ -258,14 +382,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29EE66629800BD3B27445C50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Delight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6550FEE0DE934D911A2BDF50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delight/Pods-Delight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delight/Pods-Delight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Delight/Pods-Delight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81AA2795EB20A1A786455ED3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Delight-DelightUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D739A58A721895FDBF755A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DelightTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF3C88043F565D6228F6A87D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delight-DelightUITests/Pods-Delight-DelightUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delight-DelightUITests/Pods-Delight-DelightUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Delight-DelightUITests/Pods-Delight-DelightUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5CCF80C0232A15D900084BB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CCF80CA232A15D900084BB9 /* ViewController.swift in Sources */,
-				5C72DE3F234055B1007B3D23 /* MobileNet_model_best.mlmodel in Sources */,
+				5C4E420323626CED000E159E /* SignupViewController.swift in Sources */,
+				5CCF80CA232A15D900084BB9 /* HomeViewController.swift in Sources */,
+				5CA331A42345C0830029C02D /* ViewController.swift in Sources */,
+				5CA331A82345C1750029C02D /* ObjectDetector.mlmodel in Sources */,
+				5CC43AD223628B9400ABF6F4 /* FavoriteCuisineViewController.swift in Sources */,
+				5C678E6523628DD500B9B99C /* FavoriteCuisineCell.swift in Sources */,
+				5CE1FF6C23695B8900A55EDF /* UIViewExtension.swift in Sources */,
+				5C4E420123624D2F000E159E /* LoginViewController.swift in Sources */,
 				5CCF80C8232A15D900084BB9 /* AppDelegate.swift in Sources */,
+				5CA98F7F23550E2700AC81F0 /* ScanningViewController.swift in Sources */,
+				5CFED37A236653AE00E32793 /* MobileNet_model_best.mlmodel in Sources */,
+				5C678E692362924000B9B99C /* FoodDietaryCell.swift in Sources */,
+				5CA331A62345C0A80029C02D /* VisionObjectRecognitionViewController.swift in Sources */,
+				5CE1FF6A23695B0F00A55EDF /* CreateSpinner.swift in Sources */,
+				5C678E672362921100B9B99C /* FoodDietaryViewController.swift in Sources */,
+				5C678E6B2362973200B9B99C /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +666,7 @@
 		};
 		5CCF80ED232A15DB00084BB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4E64ECB9D22790F640F7AC /* Pods-Delight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +685,7 @@
 		};
 		5CCF80EE232A15DB00084BB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F14A279159C9B402ABC24521 /* Pods-Delight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -474,6 +704,7 @@
 		};
 		5CCF80F0232A15DB00084BB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76AF361AC53AAB2B96365BE2 /* Pods-DelightTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +726,7 @@
 		};
 		5CCF80F1232A15DB00084BB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4725E80D56C59E9C0056EF5A /* Pods-DelightTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +748,7 @@
 		};
 		5CCF80F3232A15DB00084BB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29C1B393E1FECFB7F5032DD /* Pods-Delight-DelightUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +769,7 @@
 		};
 		5CCF80F4232A15DB00084BB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C06DC7EAEAFBAB9BB35A14 /* Pods-Delight-DelightUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
