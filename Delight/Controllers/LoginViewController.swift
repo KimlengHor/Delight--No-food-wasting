@@ -27,6 +27,8 @@ class LoginViewController: UIViewController {
             Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
                 if let error = error {
                     print(error)
+                    showAlert(viewController: self, title: "Login error", message: error.localizedDescription)
+                    spinner.removeFromSuperview()
                     return
                 }
                 

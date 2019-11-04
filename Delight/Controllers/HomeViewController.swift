@@ -14,6 +14,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var loginContainerView: UIView!
     @IBOutlet weak var signupContainerView: UIView!
     @IBOutlet var mainView: UIView!
+    @IBOutlet weak var closeButton: UIButton!
     
     //Variables
     var blurEffectView = UIVisualEffectView()
@@ -23,6 +24,7 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         setupView()
+        setupNotificationObservers()
     }
     
     func setupView() {
@@ -32,18 +34,10 @@ class HomeViewController: UIViewController {
         
         let dismissKeyboardTap = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
         self.mainView.addGestureRecognizer(dismissKeyboardTap)
-        
-        let dismissPopupTap = UITapGestureRecognizer(target: self, action: #selector(dismissPopupView))
-        //self.mainView.addGestureRecognizer(dismissPopupTap)
     }
     
     @objc fileprivate func dismissKeyboard() {
         self.view.endEditing(true)
-    }
-    
-    @objc fileprivate func dismissPopupView() {
-        self.loginContainerView.isHidden = true
-        self.signupContainerView.isHidden = true
     }
     
     fileprivate func createBlurView() {
@@ -57,6 +51,27 @@ class HomeViewController: UIViewController {
         view.insertSubview(blurEffectView, at: 3)
     }
     
+    func setupNotificationObservers() {
+        NotificationCenter.default.addObserver(self, selector: #selector(handleKeyboardShow), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(handleKeyboardHide), name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
+    
+    @objc fileprivate func handleKeyboardHide() {
+        self.view.endEditing(true)
+        UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
+            self.view.transform = .identity
+        })
+    }
+    
+    @objc fileprivate func handleKeyboardShow(notification: Notification) {
+        guard let value = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue
+            else { return }
+        let keyboardFrame = value.cgRectValue
+        let bottomSpace = view.frame.height - loginContainerView.frame.origin.y - loginContainerView.frame.height
+        let difference = keyboardFrame.height - bottomSpace
+        self.view.transform = CGAffineTransform(translationX: 0, y: -difference - 15)
+    }
+    
     //Actions
     @IBAction func loginButtonPressed(_ sender: Any) {
         self.loginContainerView.isHidden = false
@@ -68,6 +83,8 @@ class HomeViewController: UIViewController {
                 self.loginContainerView.transform = CGAffineTransform.identity
             })
         }
+        
+        closeButton.isHidden = false
     }
     
     @IBAction func signupButtonPressed(_ sender: Any) {
@@ -80,7 +97,15 @@ class HomeViewController: UIViewController {
                 self.signupContainerView.transform = CGAffineTransform.identity
             })
         }
+        
+        closeButton.isHidden = false
     }
     
+    @IBAction func closeButtonPressed(_ sender: Any) {
+        blurEffectView.isHidden = true
+        loginContainerView.isHidden = true
+        signupContainerView.isHidden = true
+        closeButton.isHidden = true
+    }
 }
 

@@ -30,6 +30,8 @@ class SignupViewController: UIViewController {
             Auth.auth().createUser(withEmail: email, password: password) { (result, error) in
                 if let error = error {
                     print(error)
+                    showAlert(viewController: self, title: "Signup error", message: error.localizedDescription)
+                    spinner.removeFromSuperview()
                     return
                 }
                 

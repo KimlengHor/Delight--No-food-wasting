@@ -119,8 +119,8 @@ class ScanningViewController: UIViewController, AVCaptureVideoDataOutputSampleBu
             //print(self.confidenceResults)
             DispatchQueue.main.async {
                 
-                self.firstFoodLabel.text = "\(self.confidenceResults[0].identifier)"
-                self.secondFoodLabel.text = "\(self.confidenceResults[1].identifier)"
+                self.firstFoodLabel.text = "\(self.confidenceResults[1].identifier)"
+                self.secondFoodLabel.text = "\(self.confidenceResults[0].identifier)"
                 self.thirdFoodLabel.text = "\(self.confidenceResults[2].identifier)"
                 
                 self.resultLabel.text = "\(self.confidenceResults[0].identifier)"

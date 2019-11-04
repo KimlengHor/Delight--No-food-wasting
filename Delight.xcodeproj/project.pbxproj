@@ -29,6 +29,7 @@
 		5CCF80E8232A15DB00084BB9 /* DelightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCF80E7232A15DB00084BB9 /* DelightUITests.swift */; };
 		5CE1FF6A23695B0F00A55EDF /* CreateSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1FF6923695B0F00A55EDF /* CreateSpinner.swift */; };
 		5CE1FF6C23695B8900A55EDF /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1FF6B23695B8900A55EDF /* UIViewExtension.swift */; };
+		5CF33EC12370C04400EABB90 /* ShowAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF33EC02370C04400EABB90 /* ShowAlertController.swift */; };
 		5CFED37A236653AE00E32793 /* MobileNet_model_best.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5CFED379236653AE00E32793 /* MobileNet_model_best.mlmodel */; };
 		76C630B11A0BCC4CE3512535 /* Pods_Delight_DelightUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E23AB8F3E27F9AE71E23D80 /* Pods_Delight_DelightUITests.framework */; };
 		C3C7E43A7B4E711C689F4CD0 /* Pods_Delight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154E2B527960877E6550DA45 /* Pods_Delight.framework */; };
@@ -87,6 +88,7 @@
 		5CE1FF6923695B0F00A55EDF /* CreateSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSpinner.swift; sourceTree = "<group>"; };
 		5CE1FF6B23695B8900A55EDF /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		5CF02C29F195D61B9F971232 /* Pods-DelightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelightTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DelightTests/Pods-DelightTests.release.xcconfig"; sourceTree = "<group>"; };
+		5CF33EC02370C04400EABB90 /* ShowAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertController.swift; sourceTree = "<group>"; };
 		5CFED379236653AE00E32793 /* MobileNet_model_best.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNet_model_best.mlmodel; path = ../../../MobileNet_model_best.mlmodel; sourceTree = "<group>"; };
 		5E23AB8F3E27F9AE71E23D80 /* Pods_Delight_DelightUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delight_DelightUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4E64ECB9D22790F640F7AC /* Pods-Delight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delight.debug.xcconfig"; path = "Target Support Files/Pods-Delight/Pods-Delight.debug.xcconfig"; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 			children = (
 				5CE1FF6923695B0F00A55EDF /* CreateSpinner.swift */,
 				5CE1FF6B23695B8900A55EDF /* UIViewExtension.swift */,
+				5CF33EC02370C04400EABB90 /* ShowAlertController.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -482,6 +485,7 @@
 				5CCF80CA232A15D900084BB9 /* HomeViewController.swift in Sources */,
 				5CA331A42345C0830029C02D /* ViewController.swift in Sources */,
 				5CA331A82345C1750029C02D /* ObjectDetector.mlmodel in Sources */,
+				5CF33EC12370C04400EABB90 /* ShowAlertController.swift in Sources */,
 				5CC43AD223628B9400ABF6F4 /* FavoriteCuisineViewController.swift in Sources */,
 				5C678E6523628DD500B9B99C /* FavoriteCuisineCell.swift in Sources */,
 				5CE1FF6C23695B8900A55EDF /* UIViewExtension.swift in Sources */,

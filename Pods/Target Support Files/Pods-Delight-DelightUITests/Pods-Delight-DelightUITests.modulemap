@@ -1,0 +1,6 @@
+framework module Pods_Delight_DelightUITests {
+  umbrella header "Pods-Delight-DelightUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
