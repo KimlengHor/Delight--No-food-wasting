@@ -28,6 +28,30 @@ class ScanningViewController: UIViewController, AVCaptureVideoDataOutputSampleBu
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let firstFoodTap = UITapGestureRecognizer(target: self, action: #selector(handleFirstFoodTap))
+        firstFoodLabel.addGestureRecognizer(firstFoodTap)
+        firstFoodLabel.isUserInteractionEnabled = true
+        
+        let secondFoodTap = UITapGestureRecognizer(target: self, action: #selector(handleSecondFoodTap))
+        secondFoodLabel.addGestureRecognizer(secondFoodTap)
+        secondFoodLabel.isUserInteractionEnabled = true
+        
+        let thirdFoodTap = UITapGestureRecognizer(target: self, action: #selector(handleThirdFoodTap))
+        thirdFoodLabel.addGestureRecognizer(thirdFoodTap)
+        thirdFoodLabel.isUserInteractionEnabled = true
+    }
+    
+    @objc fileprivate func handleFirstFoodTap() {
+        print("\(firstFoodLabel.text ?? "") is added to the ingredients")
+    }
+    
+    @objc fileprivate func handleSecondFoodTap() {
+        print("\(secondFoodLabel.text ?? "") is added to the ingredients")
+    }
+    
+    @objc fileprivate func handleThirdFoodTap() {
+        print("\(thirdFoodLabel.text ?? "") is added to the ingredients")
     }
     
     override func viewWillAppear(_ animated: Bool) {

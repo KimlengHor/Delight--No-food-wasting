@@ -7,11 +7,20 @@
 //
 
 import UIKit
+import FirebaseFirestore
+import FirebaseAuth
 
 class FoodDietaryViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     //IBOutlets
     @IBOutlet weak var tableView: UITableView!
+    
+    //Variables
+    var email = ""
+    var password = ""
+    var firstname = ""
+    var lastname = ""
+    var favoriteCuisine = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,12 +45,41 @@ class FoodDietaryViewController: UIViewController, UITableViewDataSource, UITabl
         return 120
     }
     
+    //after create a new user, users document will add a new document
+    fileprivate func saveInfoToFirestore() {
+        let uid = Auth.auth().currentUser?.uid ?? ""
+        let docData: [String: Any] = [
+            "firstName": firstname,
+            "lastName": lastname
+        ]
+        
+        Firestore.firestore().collection("users").document(uid).setData(docData) { (error) in
+            if let error = error {
+                print("Fail to add to the database ", error)
+                return
+            }
+            //show to welcome view controller
+            let welcomeVC = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "WelcomeVC") as! WelcomeViewController
+            self.navigationController?.pushViewController(welcomeVC, animated: true)
+        }
+    }
     
     //Actions
     @IBAction func saveButtonPressed(_ sender: Any) {
-        //show to welcome view controller
-        let welcomeVC = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "WelcomeVC") as! WelcomeViewController
-        self.navigationController?.pushViewController(welcomeVC, animated: true)
+        
+        startSpinnerAnimation(view: self.view)
+        //if let email = emailTextField.text, let password = passwordTextField.text {
+        Auth.auth().createUser(withEmail: email, password: password) { (result, error) in
+            if let error = error {
+                print(error)
+                showAlert(viewController: self, title: "Signup error", message: error.localizedDescription)
+                spinner.removeFromSuperview()
+                return
+            }
+            
+            spinner.removeFromSuperview()
+            self.saveInfoToFirestore()
+        }
     }
     
     @IBAction func backButtonPressed(_ sender: Any) {

@@ -13,6 +13,12 @@ class FavoriteCuisineViewController: UIViewController, UITableViewDelegate, UITa
     //IBOutlets
     @IBOutlet weak var tableView: UITableView!
     
+    //Variables
+    var firstname = ""
+    var lastname = ""
+    var email = ""
+    var password = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -49,6 +55,10 @@ class FavoriteCuisineViewController: UIViewController, UITableViewDelegate, UITa
     @IBAction func saveButtonPressed(_ sender: Any) {
         //show to dietary restrictions view controller
         let dietaryVC = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "DietaryVC") as! FoodDietaryViewController
+        dietaryVC.email = email
+        dietaryVC.password = password
+        dietaryVC.firstname = firstname
+        dietaryVC.lastname = lastname
         self.navigationController?.pushViewController(dietaryVC, animated: true)
     }
     
