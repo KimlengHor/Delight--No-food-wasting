@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0BBEE12388C2AA00FEE631 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0BBEE02388C2AA00FEE631 /* ResultsViewController.swift */; };
+		5C0BBEE52388C30600FEE631 /* ResultsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0BBEE42388C30600FEE631 /* ResultsCollectionViewCell.swift */; };
+		5C0BBEE82388C6D900FEE631 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0BBEE72388C6D900FEE631 /* Food.swift */; };
+		5C0BBEEA2388D51900FEE631 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0BBEE92388D51900FEE631 /* DetailViewController.swift */; };
+		5C0BBEEC2388D61B00FEE631 /* IngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0BBEEB2388D61B00FEE631 /* IngredientTableViewCell.swift */; };
 		5C4E420123624D2F000E159E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E420023624D2F000E159E /* LoginViewController.swift */; };
 		5C4E420323626CED000E159E /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E420223626CED000E159E /* SignupViewController.swift */; };
 		5C4E420523626EC6000E159E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E420423626EC6000E159E /* GoogleService-Info.plist */; };
@@ -18,6 +23,8 @@
 		5CA331A42345C0830029C02D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA331A32345C0830029C02D /* ViewController.swift */; };
 		5CA331A62345C0A80029C02D /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA331A52345C0A80029C02D /* VisionObjectRecognitionViewController.swift */; };
 		5CA331A82345C1750029C02D /* ObjectDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5CA331A72345C1750029C02D /* ObjectDetector.mlmodel */; };
+		5CA482402388A1DE00FF84EE /* IngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4823F2388A1DE00FF84EE /* IngredientViewController.swift */; };
+		5CA482422388A3AD00FF84EE /* IngredientCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA482412388A3AD00FF84EE /* IngredientCollectionViewCell.swift */; };
 		5CA98F7F23550E2700AC81F0 /* ScanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA98F7E23550E2700AC81F0 /* ScanningViewController.swift */; };
 		5CC43AD223628B9400ABF6F4 /* FavoriteCuisineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC43AD123628B9400ABF6F4 /* FavoriteCuisineViewController.swift */; };
 		5CCF80C8232A15D900084BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCF80C7232A15D900084BB9 /* AppDelegate.swift */; };
@@ -59,6 +66,11 @@
 		41CFBD3BAEDDF978D483A12E /* Pods-Delight-DelightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delight-DelightUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Delight-DelightUITests/Pods-Delight-DelightUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4725E80D56C59E9C0056EF5A /* Pods-DelightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelightTests.release.xcconfig"; path = "Target Support Files/Pods-DelightTests/Pods-DelightTests.release.xcconfig"; sourceTree = "<group>"; };
 		4928EA09C4B0B12FB3E4E7B6 /* Pods-DelightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelightTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DelightTests/Pods-DelightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C0BBEE02388C2AA00FEE631 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		5C0BBEE42388C30600FEE631 /* ResultsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C0BBEE72388C6D900FEE631 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		5C0BBEE92388D51900FEE631 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5C0BBEEB2388D61B00FEE631 /* IngredientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTableViewCell.swift; sourceTree = "<group>"; };
 		5C4E420023624D2F000E159E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5C4E420223626CED000E159E /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		5C4E420423626EC6000E159E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -70,6 +82,8 @@
 		5CA331A32345C0830029C02D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5CA331A52345C0A80029C02D /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
 		5CA331A72345C1750029C02D /* ObjectDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ObjectDetector.mlmodel; sourceTree = "<group>"; };
+		5CA4823F2388A1DE00FF84EE /* IngredientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientViewController.swift; sourceTree = "<group>"; };
+		5CA482412388A3AD00FF84EE /* IngredientCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCollectionViewCell.swift; sourceTree = "<group>"; };
 		5CA98F7E23550E2700AC81F0 /* ScanningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningViewController.swift; sourceTree = "<group>"; };
 		5CC43AD123628B9400ABF6F4 /* FavoriteCuisineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCuisineViewController.swift; sourceTree = "<group>"; };
 		5CCF80C4232A15D900084BB9 /* Delight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Delight.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +153,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5C0BBEE62388C6C700FEE631 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C0BBEE72388C6D900FEE631 /* Food.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		5C4902943F477B5984FC4269 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +185,9 @@
 			children = (
 				5C678E6423628DD500B9B99C /* FavoriteCuisineCell.swift */,
 				5C678E682362924000B9B99C /* FoodDietaryCell.swift */,
+				5CA482412388A3AD00FF84EE /* IngredientCollectionViewCell.swift */,
+				5C0BBEE42388C30600FEE631 /* ResultsCollectionViewCell.swift */,
+				5C0BBEEB2388D61B00FEE631 /* IngredientTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +202,9 @@
 				5C4E420023624D2F000E159E /* LoginViewController.swift */,
 				5C678E662362921100B9B99C /* FoodDietaryViewController.swift */,
 				5C678E6A2362973200B9B99C /* WelcomeViewController.swift */,
+				5CA4823F2388A1DE00FF84EE /* IngredientViewController.swift */,
+				5C0BBEE02388C2AA00FEE631 /* ResultsViewController.swift */,
+				5C0BBEE92388D51900FEE631 /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -207,6 +235,7 @@
 		5CCF80C6232A15D900084BB9 /* Delight */ = {
 			isa = PBXGroup;
 			children = (
+				5C0BBEE62388C6C700FEE631 /* Models */,
 				5CE1FF6823695AF200A55EDF /* Helper */,
 				5C678E6323628DB800B9B99C /* Views */,
 				5CC43AD323628BA700ABF6F4 /* Controllers */,
@@ -483,18 +512,25 @@
 			files = (
 				5C4E420323626CED000E159E /* SignupViewController.swift in Sources */,
 				5CCF80CA232A15D900084BB9 /* HomeViewController.swift in Sources */,
+				5C0BBEEA2388D51900FEE631 /* DetailViewController.swift in Sources */,
 				5CA331A42345C0830029C02D /* ViewController.swift in Sources */,
+				5C0BBEE12388C2AA00FEE631 /* ResultsViewController.swift in Sources */,
 				5CA331A82345C1750029C02D /* ObjectDetector.mlmodel in Sources */,
 				5CF33EC12370C04400EABB90 /* ShowAlertController.swift in Sources */,
 				5CC43AD223628B9400ABF6F4 /* FavoriteCuisineViewController.swift in Sources */,
 				5C678E6523628DD500B9B99C /* FavoriteCuisineCell.swift in Sources */,
 				5CE1FF6C23695B8900A55EDF /* UIViewExtension.swift in Sources */,
 				5C4E420123624D2F000E159E /* LoginViewController.swift in Sources */,
+				5C0BBEE52388C30600FEE631 /* ResultsCollectionViewCell.swift in Sources */,
+				5C0BBEE82388C6D900FEE631 /* Food.swift in Sources */,
 				5CCF80C8232A15D900084BB9 /* AppDelegate.swift in Sources */,
 				5CA98F7F23550E2700AC81F0 /* ScanningViewController.swift in Sources */,
 				5CFED37A236653AE00E32793 /* MobileNet_model_best.mlmodel in Sources */,
 				5C678E692362924000B9B99C /* FoodDietaryCell.swift in Sources */,
+				5CA482402388A1DE00FF84EE /* IngredientViewController.swift in Sources */,
 				5CA331A62345C0A80029C02D /* VisionObjectRecognitionViewController.swift in Sources */,
+				5CA482422388A3AD00FF84EE /* IngredientCollectionViewCell.swift in Sources */,
+				5C0BBEEC2388D61B00FEE631 /* IngredientTableViewCell.swift in Sources */,
 				5CE1FF6A23695B0F00A55EDF /* CreateSpinner.swift in Sources */,
 				5C678E672362921100B9B99C /* FoodDietaryViewController.swift in Sources */,
 				5C678E6B2362973200B9B99C /* WelcomeViewController.swift in Sources */,

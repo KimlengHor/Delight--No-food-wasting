@@ -25,6 +25,7 @@ class ScanningViewController: UIViewController, AVCaptureVideoDataOutputSampleBu
     var previewLayer:CALayer!
     var captureDevice:AVCaptureDevice!
     var confidenceResults = [VNClassificationObservation]()
+    var ingredients = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,14 +45,17 @@ class ScanningViewController: UIViewController, AVCaptureVideoDataOutputSampleBu
     
     @objc fileprivate func handleFirstFoodTap() {
         print("\(firstFoodLabel.text ?? "") is added to the ingredients")
+        ingredients.append(firstFoodLabel.text ?? "")
     }
     
     @objc fileprivate func handleSecondFoodTap() {
         print("\(secondFoodLabel.text ?? "") is added to the ingredients")
+        ingredients.append(secondFoodLabel.text ?? "")
     }
     
     @objc fileprivate func handleThirdFoodTap() {
         print("\(thirdFoodLabel.text ?? "") is added to the ingredients")
+        ingredients.append(thirdFoodLabel.text ?? "")
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -143,7 +147,7 @@ class ScanningViewController: UIViewController, AVCaptureVideoDataOutputSampleBu
             //print(self.confidenceResults)
             DispatchQueue.main.async {
                 
-                self.firstFoodLabel.text = "\(self.confidenceResults[1].identifier)"
+                self.firstFoodLabel.text = self.confidenceResults[1].identifier 
                 self.secondFoodLabel.text = "\(self.confidenceResults[0].identifier)"
                 self.thirdFoodLabel.text = "\(self.confidenceResults[2].identifier)"
                 
@@ -158,5 +162,11 @@ class ScanningViewController: UIViewController, AVCaptureVideoDataOutputSampleBu
         } catch {
             print(error)
         }
+    }
+    
+    @IBAction func continueButtonPressed(_ sender: Any) {
+        let ingredientVC = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "IngredientVC") as! IngredientViewController
+        ingredientVC.ingredients = ingredients
+        self.navigationController?.pushViewController(ingredientVC, animated: true)
     }
 }
