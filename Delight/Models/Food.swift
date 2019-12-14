@@ -10,13 +10,13 @@ import Foundation
 
 struct Food {
     let title: String
-    let picture_link: String
+    //let picture_link: String
     let instructions: String
     let ingredients: [Any]
     
     init(dictionary: [String: Any]) {
         self.title = dictionary["title"] as! String
-        self.picture_link = dictionary["picture_link"] as! String
+        //self.picture_link = dictionary["picture_link"] as! String
         self.instructions = dictionary["instructions"] as! String
         self.ingredients = dictionary["ingredients"] as! [Any]
     }

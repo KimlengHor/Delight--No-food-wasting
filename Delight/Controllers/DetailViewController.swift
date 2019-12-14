@@ -13,12 +13,15 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     //IBOutlets
     @IBOutlet weak var foodTitleLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var textView: UITextView!
     
     //Variables
     var food: Food?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        textView.text = food?.instructions
         
         tableView.delegate = self
         tableView.dataSource = self

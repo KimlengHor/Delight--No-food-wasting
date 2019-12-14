@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseFirestore
 
 class IngredientViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
@@ -34,7 +35,13 @@ class IngredientViewController: UIViewController, UICollectionViewDelegate, UICo
    }
     
    @IBAction func findFoodButtonPressed(_ sender: Any) {
+    
+    startSpinnerAnimation(view: self.view)
+        
+    Timer.scheduledTimer(withTimeInterval: 10, repeats: false) { (_) in
+        spinner.removeFromSuperview()
         let resultVC = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "ResultVC") as! ResultsViewController
         self.navigationController?.pushViewController(resultVC, animated: true)
+    }
    }
 }

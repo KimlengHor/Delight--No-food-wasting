@@ -24,7 +24,7 @@ class ResultsViewController: UIViewController, UICollectionViewDataSource, UICol
         collectionView.delegate = self
         collectionView.dataSource = self
         
-        Firestore.firestore().collection("foods").getDocuments { (snapshots, error) in
+        Firestore.firestore().collection("food").getDocuments { (snapshots, error) in
             if let error = error {
                 print(error)
                 return

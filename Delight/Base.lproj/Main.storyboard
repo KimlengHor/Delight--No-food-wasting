@@ -11,7 +11,7 @@
         <!--Scanning View Controller-->
         <scene sceneID="mWE-i7-Bh8">
             <objects>
-                <viewController storyboardIdentifier="ScanningVC" id="mfd-Z9-C8Z" customClass="ScanningViewController" customModule="Delight" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ScanningVC" id="mfd-Z9-C8Z" customClass="ScanningViewController" customModule="KitchApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KQ3-xq-KdJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,7 +65,7 @@
                                     <constraint firstAttribute="height" constant="50" id="WpC-bW-XfC"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finding foods ..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8q-X9-v8d">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No ingredients added" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8q-X9-v8d">
                                 <rect key="frame" x="0.0" y="796" width="414" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="YKl-tE-ijg"/>
@@ -108,7 +108,7 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="Delight" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="KitchApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -146,7 +146,7 @@
                                     <constraint firstAttribute="height" constant="120" id="3jX-75-Acj"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delight" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avx-6A-7b4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KitchApp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avx-6A-7b4" userLabel="KitchApp">
                                 <rect key="frame" x="0.0" y="188" width="414" height="64.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="54"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -223,7 +223,7 @@
         <!--Login View Controller-->
         <scene sceneID="5OD-yz-AHr">
             <objects>
-                <viewController storyboardIdentifier="LoginVC" id="c8w-Xd-6Ry" customClass="LoginViewController" customModule="Delight" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginVC" id="c8w-Xd-6Ry" customClass="LoginViewController" customModule="KitchApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HjQ-cE-JI3">
                         <rect key="frame" x="0.0" y="0.0" width="336" height="571"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -352,7 +352,7 @@
         <!--Signup View Controller-->
         <scene sceneID="zNQ-ys-Off">
             <objects>
-                <viewController id="70u-VG-aVk" customClass="SignupViewController" customModule="Delight" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="70u-VG-aVk" customClass="SignupViewController" customModule="KitchApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qcV-e2-KuQ">
                         <rect key="frame" x="0.0" y="0.0" width="336" height="571"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -484,7 +484,7 @@
         <!--Welcome View Controller-->
         <scene sceneID="Kvh-oK-z5F">
             <objects>
-                <viewController storyboardIdentifier="WelcomeVC" id="grT-Kt-WY4" customClass="WelcomeViewController" customModule="Delight" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WelcomeVC" id="grT-Kt-WY4" customClass="WelcomeViewController" customModule="KitchApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KaV-fi-cXQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -594,7 +594,7 @@
         <!--FavoriteVC-->
         <scene sceneID="8g5-dN-H5y">
             <objects>
-                <viewController storyboardIdentifier="FavoriteVC" title="FavoriteVC" id="uGF-Ao-cb6" customClass="FavoriteCuisineViewController" customModule="Delight" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FavoriteVC" title="FavoriteVC" id="uGF-Ao-cb6" customClass="FavoriteCuisineViewController" customModule="KitchApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5Vh-ID-kPA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -686,7 +686,7 @@
                                 <rect key="frame" x="20" y="186" width="374" height="546"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FavoriteCuisineCell" rowHeight="100" id="vuP-vu-lgI" customClass="FavoriteCuisineCell" customModule="Delight" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FavoriteCuisineCell" rowHeight="100" id="vuP-vu-lgI" customClass="FavoriteCuisineCell" customModule="KitchApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="374" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vuP-vu-lgI" id="ERI-ee-Mbc">
@@ -769,7 +769,7 @@
         <!--Food Dietary View Controller-->
         <scene sceneID="xNa-X0-w0G">
             <objects>
-                <viewController storyboardIdentifier="DietaryVC" id="HTk-Lb-q7W" customClass="FoodDietaryViewController" customModule="Delight" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DietaryVC" id="HTk-Lb-q7W" customClass="FoodDietaryViewController" customModule="KitchApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EMP-MB-Cek">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -861,7 +861,7 @@
                                 <rect key="frame" x="20" y="186" width="374" height="546"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FoodDietaryCell" rowHeight="100" id="0ov-xo-Fty" customClass="FoodDietaryCell" customModule="Delight" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FoodDietaryCell" rowHeight="100" id="0ov-xo-Fty" customClass="FoodDietaryCell" customModule="KitchApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="374" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0ov-xo-Fty" id="4dF-Lk-VDT">
@@ -937,7 +937,7 @@
         <!--Ingredient View Controller-->
         <scene sceneID="C3I-pv-DKl">
             <objects>
-                <viewController storyboardIdentifier="IngredientVC" id="dye-jt-xIj" customClass="IngredientViewController" customModule="Delight" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="IngredientVC" id="dye-jt-xIj" customClass="IngredientViewController" customModule="KitchApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IwO-zw-de1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -979,7 +979,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="IngredientCell" id="kcf-ow-obi" customClass="IngredientCollectionViewCell" customModule="Delight" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="IngredientCell" id="kcf-ow-obi" customClass="IngredientCollectionViewCell" customModule="KitchApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="160" height="145"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -1069,7 +1069,7 @@
         <!--Results View Controller-->
         <scene sceneID="YVn-YR-cPJ">
             <objects>
-                <viewController storyboardIdentifier="ResultVC" id="isA-Va-v5m" customClass="ResultsViewController" customModule="Delight" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResultVC" id="isA-Va-v5m" customClass="ResultsViewController" customModule="KitchApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KUA-51-dEE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1111,7 +1111,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FoodResultCell" id="2dN-12-lVN" customClass="ResultsCollectionViewCell" customModule="Delight" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FoodResultCell" id="2dN-12-lVN" customClass="ResultsCollectionViewCell" customModule="KitchApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="160" height="245"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -1185,7 +1185,7 @@
         <!--Detail View Controller-->
         <scene sceneID="4Ev-T9-mtP">
             <objects>
-                <viewController storyboardIdentifier="DetailVC" id="OEE-2H-gS1" customClass="DetailViewController" customModule="Delight" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailVC" id="OEE-2H-gS1" customClass="DetailViewController" customModule="KitchApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tvt-51-RiI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1245,7 +1245,7 @@
                                                     <constraint firstAttribute="height" constant="380" id="vf2-uf-3dK"/>
                                                 </constraints>
                                                 <prototypes>
-                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="IngredientCell" rowHeight="54" id="OZ5-fJ-JaN" customClass="IngredientTableViewCell" customModule="Delight" customModuleProvider="target">
+                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="IngredientCell" rowHeight="54" id="OZ5-fJ-JaN" customClass="IngredientTableViewCell" customModule="KitchApp" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="28" width="375" height="54"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OZ5-fJ-JaN" id="lya-dN-g78">
@@ -1272,47 +1272,13 @@
                                                     </tableViewCell>
                                                 </prototypes>
                                             </tableView>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Efc-DU-GZM">
-                                                <rect key="frame" x="20" y="933.5" width="335" height="50"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMc-bK-IgO">
-                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="50"/>
-                                                        <color key="backgroundColor" red="0.89411764709999997" green="0.15686274510000001" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="22"/>
-                                                        <state key="normal" title="SAVE">
-                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        </state>
-                                                    </button>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ARROW" translatesAutoresizingMaskIntoConstraints="NO" id="dh1-YW-K2T">
-                                                        <rect key="frame" x="299" y="18.5" width="21" height="13"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="13" id="JRD-8n-p3z"/>
-                                                            <constraint firstAttribute="width" constant="21" id="WdZ-Tc-JY2"/>
-                                                        </constraints>
-                                                    </imageView>
-                                                </subviews>
-                                                <color key="backgroundColor" red="0.92749339340000003" green="0.25418576599999998" blue="0.3021396697" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="trailing" secondItem="dh1-YW-K2T" secondAttribute="trailing" constant="15" id="9eE-ad-333"/>
-                                                    <constraint firstAttribute="bottom" secondItem="aMc-bK-IgO" secondAttribute="bottom" id="Jc9-jG-2Xd"/>
-                                                    <constraint firstItem="aMc-bK-IgO" firstAttribute="top" secondItem="Efc-DU-GZM" secondAttribute="top" id="K8E-qQ-SW4"/>
-                                                    <constraint firstAttribute="height" constant="50" id="RKP-dD-her"/>
-                                                    <constraint firstItem="dh1-YW-K2T" firstAttribute="centerY" secondItem="Efc-DU-GZM" secondAttribute="centerY" id="VVh-rs-HoS"/>
-                                                    <constraint firstAttribute="trailing" secondItem="aMc-bK-IgO" secondAttribute="trailing" id="afc-4P-Nm1"/>
-                                                    <constraint firstItem="aMc-bK-IgO" firstAttribute="leading" secondItem="Efc-DU-GZM" secondAttribute="leading" id="xKi-wl-t3S"/>
-                                                </constraints>
-                                            </view>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2k-VP-GrI">
-                                                <rect key="frame" x="20" y="995.5" width="335" height="50"/>
-                                                <color key="backgroundColor" red="0.89411764709999997" green="0.15686274510000001" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="Xsn-JU-Txk"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="22"/>
-                                                <state key="normal" title="ADD TO FAVOURITE">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                            </button>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MuZ-Ud-NPI">
+                                                <rect key="frame" x="32" y="908.5" width="311" height="191.5"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -1321,20 +1287,18 @@
                                             <constraint firstItem="0DU-X8-NgV" firstAttribute="leading" secondItem="sQa-fJ-C29" secondAttribute="leading" id="Dq0-gi-sJa"/>
                                             <constraint firstItem="MAv-7M-Gk4" firstAttribute="leading" secondItem="sQa-fJ-C29" secondAttribute="leading" id="GW8-B8-k39"/>
                                             <constraint firstItem="hdf-T2-3TH" firstAttribute="top" secondItem="MAv-7M-Gk4" secondAttribute="bottom" constant="35" id="I22-tX-bg6"/>
-                                            <constraint firstItem="Efc-DU-GZM" firstAttribute="top" secondItem="hdf-T2-3TH" secondAttribute="bottom" constant="25" id="Lav-Cn-d14"/>
                                             <constraint firstAttribute="trailing" secondItem="hdf-T2-3TH" secondAttribute="trailing" id="NCY-Cd-3Wp"/>
-                                            <constraint firstAttribute="trailing" secondItem="Efc-DU-GZM" secondAttribute="trailing" constant="20" id="PVR-a2-L4M"/>
+                                            <constraint firstItem="MuZ-Ud-NPI" firstAttribute="top" secondItem="hdf-T2-3TH" secondAttribute="bottom" id="ROw-ie-oXY"/>
                                             <constraint firstAttribute="height" constant="1100" id="Rn4-K6-vNp"/>
-                                            <constraint firstAttribute="trailing" secondItem="l2k-VP-GrI" secondAttribute="trailing" constant="20" id="Tbe-if-yFu"/>
+                                            <constraint firstAttribute="bottom" secondItem="MuZ-Ud-NPI" secondAttribute="bottom" id="Was-m6-vtG"/>
                                             <constraint firstAttribute="trailing" secondItem="SZm-v2-4AA" secondAttribute="trailing" constant="32" id="We6-sO-bIh"/>
                                             <constraint firstAttribute="trailing" secondItem="MAv-7M-Gk4" secondAttribute="trailing" id="YzK-Mu-Kib"/>
+                                            <constraint firstItem="MuZ-Ud-NPI" firstAttribute="leading" secondItem="SZm-v2-4AA" secondAttribute="leading" id="cAY-fb-mci"/>
                                             <constraint firstAttribute="trailing" secondItem="0DU-X8-NgV" secondAttribute="trailing" id="g12-bX-vbA"/>
-                                            <constraint firstItem="l2k-VP-GrI" firstAttribute="leading" secondItem="sQa-fJ-C29" secondAttribute="leading" constant="20" id="gKP-SU-DJW"/>
                                             <constraint firstItem="hdf-T2-3TH" firstAttribute="leading" secondItem="sQa-fJ-C29" secondAttribute="leading" id="hEJ-Ie-Mvo"/>
+                                            <constraint firstItem="MuZ-Ud-NPI" firstAttribute="trailing" secondItem="SZm-v2-4AA" secondAttribute="trailing" id="j7b-Dl-mbz"/>
                                             <constraint firstItem="MAv-7M-Gk4" firstAttribute="top" secondItem="SZm-v2-4AA" secondAttribute="bottom" constant="10" id="k32-6G-0ea"/>
-                                            <constraint firstItem="l2k-VP-GrI" firstAttribute="top" secondItem="Efc-DU-GZM" secondAttribute="bottom" constant="12" id="nkx-0K-7UV"/>
                                             <constraint firstItem="0DU-X8-NgV" firstAttribute="top" secondItem="sQa-fJ-C29" secondAttribute="top" id="sDw-Tp-gEY"/>
-                                            <constraint firstItem="Efc-DU-GZM" firstAttribute="leading" secondItem="sQa-fJ-C29" secondAttribute="leading" constant="20" id="tT1-Su-bTA"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1360,6 +1324,7 @@
                     <connections>
                         <outlet property="foodTitleLabel" destination="GvK-6O-iaS" id="sMT-CG-dSp"/>
                         <outlet property="tableView" destination="hdf-T2-3TH" id="QyI-yP-G6K"/>
+                        <outlet property="textView" destination="MuZ-Ud-NPI" id="oaS-yp-p0c"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xA7-Ta-J3Z" userLabel="First Responder" sceneMemberID="firstResponder"/>

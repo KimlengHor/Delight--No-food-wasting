@@ -8,6 +8,7 @@
 
 import UIKit
 import FirebaseAuth
+import FirebaseFirestore
 
 class LoginViewController: UIViewController {
 
@@ -45,6 +46,32 @@ class LoginViewController: UIViewController {
     
     //Actions
     @IBAction func loginButtonPressed(_ sender: Any) {
+//        if let path = Bundle.main.path(forResource: "test", ofType: "json") {
+//            print("Yes")
+//            do {
+//                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+//                let jsonResult = try JSONSerialization.jsonObject(with: data, options: []) as! [[String:Any]]
+//                //print(jsonResult.first ?? "")
+////                for result in jsonResult {
+////                    print(result)
+////                    Firestore.firestore().collection("foods").document().setData([result.key: result.value])
+////                }
+////                jsonResult.forEach { (key, value) in
+////                    print("\(key): \(value)")
+////                    Firestore.firestore().collection("foods").document().setData([key: value])
+////                }
+////                jsonResult.forEach { (result) in
+////                    Firestore.firestore().collection("foods").document().setData(result)
+////                }
+//                //Firestore.firestore().collection("foods").document().setData(["yes": "love"])
+//            } catch {
+//               // handle error
+//                print("Oh shit")
+//            }
+//        } else {
+//            print("Oh nooo")
+//        }
+        
         loginUser()
     }
 }
